@@ -1,0 +1,219 @@
+body{
+    font-family: 'Source Code Pro', monospace;
+    color: #08bd10;
+}
+
+.coloredBackground{
+    background: #d2f4df !important;
+}
+
+.logo{
+    margin-top: 20px;
+    max-height: 85px;
+    max-width: 85px;
+}
+
+
+.title{
+    font-weight: 200;
+    font-size: 45px;
+}
+
+.mainImage{
+    width: 100%;
+}
+
+.workImage{
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.workImageSmall {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.workImage:hover {
+    cursor: pointer;
+}
+
+.img-hack {
+    position: relative;
+    width: 100%;
+    height: 235px;
+    overflow: hidden;
+}
+
+h2{
+    color: #3ca040;
+}
+
+hr{
+    height: 2px;
+    background-color: #08bd10;
+}
+
+.coloredDivider{
+    background-color: #08bd10 !important;
+}
+
+.coloredBorder{
+    border: 1px solid #08bd10;
+}
+
+.coloredMenuHover > li > a:hover{
+    background-color: #08bd10 !important;
+}
+
+.coloredMenuBtnHover:focus {
+    background-color: #08bd10 !important; 
+}
+
+.coloredMenuBtnHover:active {
+    background-color: #08bd10 !important; 
+}
+
+.coloredMenuBtnHover:hover {
+    background-color: #08bd10 !important;
+    border: 1px solid #08bd10;   
+}
+
+@media only screen and (max-width: 768px){
+    .workImage{
+        max-width: 250px;
+    }
+}
+
+a{
+   color: #08bd10;
+}
+
+a:hover {
+    color: #08bd10;
+}
+
+h3{
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 420px){
+    .responsive-col{
+        width: 100%;
+    }
+}
+
+.spaceAround{
+    margin-top: 20px;
+}
+
+.spaceBackground{
+    padding-top: 15px;
+}
+
+.mainWorkImage{
+    width: 100%;
+    max-height: 450px;
+    margin-bottom: 10px;
+}
+
+.nextStepImage{
+    width: 100%;
+    margin: 10px 0;
+}
+
+.nextStepTitle{
+    margin-bottom: 40px;
+}
+
+p{
+    color: black;
+}
+
+.listDash{
+    color: black;
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.listDash li::before {
+    content: "-";
+    display: inline;
+    margin: 8px;
+}
+
+@media only screen and (max-width: 1200px){
+    .nextStepImage{
+        width: 100%;
+        max-width: 293px;
+        max-height: 170px;
+    }
+}
+
+.nutella-container {
+    width: 100%;
+    height: 650px;
+    max-width: 520px;
+    margin: auto;
+}
+
+.couvercle{
+    border: 1px solid black;
+    height: 15%;
+    width: 85%;
+    border-top-left-radius: 15%;
+    margin: 0 auto;
+    border-top-right-radius: 15%;
+    transition: transform 2s;
+}
+
+.pot{
+    border: 1px solid black;
+    height: 85%;
+    width: 100%;
+    background: #795548;
+    display: flex;
+    align-items: center;
+    border-radius: 15%;
+}
+
+.nutella-label{
+    width: 100%;
+    height: 33%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brand{
+    font-size: 70px;
+    margin: 0;
+    color: red;
+}
+
+.initial{
+    color: black;
+}
+
+@media only screen and (max-width: 557px){
+    .nutella-container{
+        max-width: initial;
+        height: 125vw;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .brand{
+        font-size: 50px;
+    }
+}
+
+.couvercle:hover{
+    transform:translateY(-19px);
+}

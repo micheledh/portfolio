@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:200,400" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main class="container">
+        
+        <nav class="row">
+            <div class="col-xs-12 coloredBackground">
+                <div class="dropdown spaceAround">
+                    <button class="btn btn-default dropdown-toggle coloredBackground coloredBorder coloredMenuBtnHover" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        Menu
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu coloredBackground coloredMenuHover" aria-labelledby="dropdownMenu1">
+                        <li><a href="https://micheledh.github.io/nutella/">Nutella</a></li>
+                        <li><a href="https://micheledh.github.io/cat_clicker/">Cat Clicker</a></li>
+                        <li><a href="https://micheledh.github.io/animal_card/">Animal Card</a></li>
+                        <li><a href="https://micheledh.github.io/i_rock/">iRock</a></li>
+                        <li><a href="https://micheledh.github.io/arcade_game/">Arcade Game</a></li>
+                        <li><a href="https://micheledh.github.io/portfolio_optimization/">Web optimization</a></li>
+                        <li><a href="https://micheledh.github.io/moving_app/">Moving app</a></li>
+                        <li><a href="https://github.com/micheledh/gaming_social_network">Gaming Social Network (Python)</a></li>
+                        <li role="separator" class="divider coloredDivider"></li>
+                        <li><a href="https://micheledh.github.io/online_resume/">Online resume</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <header class="row coloredBackground">
+            <div class="col-xs-2">
+                <img src="images/cacao.jpg" alt="logo" class="logo img-circle img-responsive coloredBorder">
+            </div>
+            <div class="col-xs-10 text-right text-uppercase responsive-col">
+                <h1 class="title">Michele Debris-Hue</h1>
+                <h4>Front-end Girl</h4>
+            </div>
+        </header>
+        
+        <hr>
+        
+        <section class="row">
+            <div class="col-md-12">
+                <picture>
+                    <source media="(min-width: 750px)" srcset="images/working_woman_big.jpg 2x, images/working_woman.jpg">
+                    <source media="(min-width: 500px)" srcset="images/busy_woman.png">
+                    <img src="https://placeimg.com/200/85/animals/grayscale" alt="Main image" class="img-responsive mainImage">
+                </picture>
+            </div>
+        </section>
+        
+        <section class="row">
+            <div class="col-md-12">
+                <h2>Latest Works</h2>
+            </div>
+        </section>
+        
+        <section class="row text-center coloredBackground spaceBackground">
+            <article class="col-sm-4 col-xs-12">
+                <div class="img-hack" data-toggle="modal" data-target="#work1">
+                	<img src="images/hind.jpg" alt="Animal Card" class="workImage center-block coloredBorder"/>
+            	</div>
+                <h3>Animal Card</h3>
+                <a href="https://micheledh.github.io/animal_card/">Nanodegree Front-End Web Developer</a>
+            </article>
+            <article class="col-sm-4 col-xs-12">
+            	<div class="img-hack" data-toggle="modal" data-target="#work2">
+                	<img src="images/online_resume.svg" alt="Online resume" class="workImageSmall center-block coloredBorder"/>
+                </div>	
+                <h3>Online Resume</h3>
+                <a href="https://micheledh.github.io/online_resume/">JavaScript Basics</a>
+            </article>
+            <article class="col-sm-4 col-xs-12">
+            	<div class="img-hack" data-toggle="modal" data-target="#work3">
+                	<img src="images/nutella.jpg" alt="Nutella" class="workImage center-block coloredBorder"/>
+                </div>
+                <h3>Nutella</h3>
+                <a href="https://micheledh.github.io/nutella/">Personal HTML and CSS project</a>
+            </article>
+        </section>
+    </main>
+    
+    <div class="modal fade" id="work1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Nanodegree Front-End Web Developer</h4>
+                </div>
+                <div class="modal-body">
+                    Udacity
+                    <p>
+                        Project: Animal Card
+                    </p>
+                    <p>
+                        The project was to create a card from a mockup, with an image, a title, and some facts about an animal. Only CSS3 and HTML5 were used for that project.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="work2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel2">JavaScript Basics</h4>
+                </div>
+                <div class="modal-body">
+                    Udacity
+                    <p>
+                        Project: Online Resume
+                    </p>
+                    <p>
+                        The project was to create an onlime resume, easy to update using JavaScript as an object oriented language.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="work3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel3">Personal HTML and CSS project</h4>
+                </div>
+                <div class="modal-body">
+                    Udacity
+                    <p>
+                        Personal Project: Nutella
+                    </p>
+                    <p>
+                        After finishing the course about CSS and HTML, it was a personal challenge to create a Nutella jar, with an animation when the lid is hovered, only using CCS3 and HTML5.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
