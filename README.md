@@ -2,7 +2,7 @@
 
 <h2> Context </h2>
 
-<p> This is a udacity project. Initiaaly, it was to use CSS, HTML and Bootstrap, but I add some functionalities with javascript.
+<p> This is a udacity project. Initialy, it was to use CSS, HTML and Bootstrap, but I add some functionalities with javascript.
 I had a header with a menu button, leading to my projects on github. </p>
 
 <h2> Use </h2>
